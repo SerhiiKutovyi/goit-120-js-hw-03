@@ -151,3 +151,16 @@
 // }
 
 // sum(2, 5);
+
+// function createReversedArray() {
+//   return Array.from(arguments).reverse();
+// }
+// console.log(createReversedArray(12, 85, 37, 4));
+
+function calculateTax(amount, taxRate = 0.2) {
+  return amount * taxRate;
+}
+
+console.log(calculateTax(100, 0.1));
+console.log(calculateTax(100, 0.3));
+console.log(calculateTax(200));
